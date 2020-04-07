@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f9b9b7;
+  transition: background 0.5s ease;
+}
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.intro-text h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.intro-text p {
+  font-size: 22px;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.second-page {
+  text-align: center;
+  width: 70%;
+}
+.second-page h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+section img {
+  width: 50%;
+  height: 70%;
+  object-fit: cover;
+}
+.bg-active {
+  background-color: white;
+}
